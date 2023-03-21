@@ -116,8 +116,12 @@ INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Pablo Rene', 'Garcia Escobar'
 INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Jeison Dany', 'Roblero Galvez', '8 Calle 6-34 Boca del monte Z1', 56321452);
 INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Gerardo Jose Enrique', 'Alvarez Agustin', '8 Calle 6-35 Boca del monte Z1', 85693214);
 INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Noe Jonathan', 'Gomez Bolaños', '8 Calle 7-41 Boca del monte Z1', 89652365);
+INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Cristhopher Andres', 'Torres Flores', '3 avenida 5-62 zona 1 Villa Canales', 30071815);
+INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Maritza Iliana', 'Puluc', '10 calle 4 avenida 5-04 zona 3, ciudad', 85692301);
+INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Esther Marisol', 'Galindo Romero', '8 calle 5-63 km 2.5 Barberena', 12603588);
 
 SELECT * FROM "Prenda";
 SELECT * FROM "Servicio";
 SELECT * FROM "Cliente";
+
 commit;
