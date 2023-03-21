@@ -55,17 +55,20 @@ CREATE TABLE "pedido_prenda_servicio" (
 /*Secuencia de la tabla cliente*/
 create sequence sec_cliente
 start with 1000
-  increment by 1;
+  increment by 1
+    minvalue 999;
   
 /*Secuencia para la tabla pedido*/
 create sequence sec_pedido
 start with 1000
-  increment by 1;
+  increment by 1
+  minvalue 999;
 
 /*Secuencia para la tabla pedido_prenda_servicio*/
 create sequence sec_prenda_servicio
 start with 1000
-  increment by 1;
+  increment by 1
+  minvalue 999;
 
 /*CREACION DE TRIGGERS*/
 /*Trigger para id de clientes*/
