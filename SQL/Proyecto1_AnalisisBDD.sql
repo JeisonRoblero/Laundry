@@ -93,7 +93,7 @@ SELECT SEC_PRENDA_SERVICIO.NEXTVAL INTO :NEW."id_prenda_servicio" FROM DUAL;
 END;
 
 
-/*INSERCION DE REGISTROS*/
+/*INSERCION DE REGISTROS GENERALES*/
 /*Insertar los tipos de prenda*/
 INSERT INTO "Prenda" ("id_prenda", "tipo_prenda") VALUES(1, 'Blusa');
 INSERT INTO "Prenda" ("id_prenda", "tipo_prenda") VALUES(2, 'Camisa');
@@ -112,7 +112,7 @@ INSERT INTO "Servicio" ("id_servicio", "tipo_servicio") VALUES(3, 'Maquina lavad
 INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Pablo Rene', 'Garcia Escobar', '7ma Ave A 17-78 col. Reyna Barrios Z13', 47046007);
 INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Jeison Dany', 'Roblero Galvez', '8 Calle 6-34 Boca del monte Z1', 56321452);
 INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Gerardo Jose Enrique', 'Alvarez Agustin', '8 Calle 6-35 Boca del monte Z1', 85693214);
-INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Noe Jonathan', 'Gomez Bolaños', '8 Calle 7-41 Boca del monte Z1', 89652365);
+INSERT INTO "Cliente" VALUES(SEC_CLIENTE.nextval, 'Noe Jonathan', 'Gomez BolaÃ±os', '8 Calle 7-41 Boca del monte Z1', 89652365);
 
 SELECT * FROM "Prenda";
 SELECT * FROM "Servicio";
